@@ -51,67 +51,36 @@ header .topnav{
     border-style: solid;
     font-size: 4vw;
     position: relative;
-    left: 55%;
+    left: 47%;
 }
 
 .I a:hover{
     color: grey;
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-.A img{
-    background-color: grey;
-    text-align: center;
-    display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
-     height: auto;
-    image-rendering: pixelated;
 }
 
-.Page 3{
-    width: 1735px;
-    height: 742px;
+.I img{
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin-right:10px;
 }
 
-
-.A h2{
-    text-align: center;
-    font-size: large;
-    font-size: 150%;
+.I p{
+    font-size: 3vw;
+    margin-left: 10px;
 }
 
-.A hr{
-     align-content: center;
-     width: 150px;
-     border: 1px solid grey;
+.II img{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-left:10px;
 }
 
-.Page 3 .A .p1 .p2{
-    text-align: center;
-    font-size: small;
+.II p{
+    font-size: 3vw;
+    margin-left: 10px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
