@@ -70,20 +70,20 @@ header .topnav{
 
 
 
-
-    .A img{
+.A img{
     background-color: grey;
-    text-align: center;
+    image-rendering: crisp-edges;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
      width: 50%;
+     height: auto;
 }
 
 .Page 3{
     width: 1735px;
     height: 742px;
+    text-align: center
 }
+
 
 .A h2{
     text-align: center;
@@ -93,12 +93,15 @@ header .topnav{
 
 .A hr{
      align-content: center;
+     width: 150px;
+     border: 1px solid grey;
 }
 
 .Page 3 .A .p1 .p2{
     text-align: center;
     font-size: small;
 }
+
 
 
 
