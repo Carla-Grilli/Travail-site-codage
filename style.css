@@ -72,10 +72,13 @@ header .topnav{
 
 .A img{
     background-color: grey;
-    image-rendering: crisp-edges;
+    text-align: center;
     display: block;
+     margin-left: auto;
+     margin-right: auto;
      width: 50%;
      height: auto;
+    image-rendering: pixelated;
 }
 
 .Page 3{
