@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:#b8b4b4
 }
 
 section{
@@ -9,6 +10,7 @@ section{
 
 header{
     font-size: 7vw;
+    background-color: white;
 }
 
 header img{
@@ -40,26 +42,21 @@ header .topnav{
     font-size: 2.5vw;
 }
 
-a{
+.I a{
     color: black;
     background-color: #3a3a3a;
     text-decoration: none;
     font-family: inter;
     border-radius: 50px 50px 50px 50px;
+    border-style: solid;
     font-size: 4vw;
     position: relative;
     left: 55%;
 }
 
-a:hover{
+.I a:hover{
     color: grey;
 }
-
-
-
-
-
-
 
 
 
@@ -70,4 +67,8 @@ a:hover{
 #Block2 .Logos{
     font-size: 2vw;
     color: #000000;
+}
+
+footer{
+    background-color: white;
 }
