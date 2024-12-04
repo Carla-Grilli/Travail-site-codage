@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color:#b8b4b4
+}
+
+header{
+    font-size: 5vw;
+}
+
+header img{
+    width: 15%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+header h1{
+    color: rgba(60, 60, 67, 0.60);
+    font-size: 5vw;
+    font-family: Elephant;
+    text-align: center;
+    margin-top: -10%;
+    line-height: 22px;
+    word-wrap: break-word
+}
+
+header .topnav{
+    text-align: center;
+    margin-top: -7px;    
+}
+
+#Block2 .Logos{
+    font-size: 2vw;
+    color: #000000;
+}
