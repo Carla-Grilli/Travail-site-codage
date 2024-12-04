@@ -84,7 +84,22 @@ header .topnav{
     width: 1735px;
     height: 742px;
 }
+
+.A h2{
+    text-align: center;
+    font-size: large;
+    font-size: 150%;
 }
+
+.A hr{
+     align-content: center;
+}
+
+.Page 3 .A .p1 .p2{
+    text-align: center;
+    font-size: small;
+}
+
 
 
 
