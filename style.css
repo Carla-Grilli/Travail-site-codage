@@ -89,8 +89,7 @@ header .topnav{
 .II p{
     font-size: 2.5vw;
     font-family: Alike;
-    width: 90%;
-    margin-left: 100px;
+    width: 100%;
     margin-top: 90px;
 }
 
@@ -145,15 +144,12 @@ header .topnav{
     align-items: center;
     font-size: large;
     width: 20%;
+    height: 50px;
     border-color: #000000;
     color: #ffffff;
     border-radius: 7px 7px 7px 7px;
     margin-left: 40%;
-}
-
-button{
     background-color: #2C2C2C;
-    height: 50px;
 }
 
 #A img{
@@ -179,36 +175,83 @@ button{
 #A p{
     display: block;
     text-align: center;
+    font-family: Alike;
     font-size: 2vw;
-    width: 70%;
+    width: 55%;
     margin: auto;
     margin-bottom: 6%;
 }
 
-#Page3{
-    width: 1735px;
-    height: 742px;
+footer{
+    background-color: white;
 }
 
+.Block3 img{
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin: 1%;
+}
 
-#Block2 .Icon{
+#fin{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Block1 .Block2{
+    display: block;
+}
+
+.Block1{
+    margin-left: 7%;
+    margin-bottom: 7%;
+    width: 40%;
+}
+
+.Blabla p{
+    font-size: 2.5vw;
+    font-family: Alice;
+}
+
+.Blabla a{
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: Alice;
+}
+
+nav ul li{
+    margin-left: -5%;
+    font-family: Alice;
+    font-size: 2vw;
+}
+
+.Block1 .Icon{
     font-size: 2vw;
     color: #000000;
 }
 
-footer{
-    background-color: white;
-    
+.Block2{
+    margin-right: 20px;
+    width: 45%;
 }
 
-.Block3 img{
-    width: 20%;
-    height: 20%;
-    float: right;
-    margin-right: 10px;
-    margin-top: 15px;
+.Block2 p{
+    font-size: 2vw;
+    font-family: Alice;
+    text-align: center;
 }
 
-#Block2{
-    display: block;
+Button{
+    background-color: #2C2C2C;
+    color: #ffffff;
+    border-radius: 7px 7px 7px 7px;
+    font-family: inter;
+    font-size: 1.5vw;
+    height: 3vw;
+}
+
+Input{
+    font-size: 1.5vw;
+    height: 2vw;
 }
