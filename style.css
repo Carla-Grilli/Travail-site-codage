@@ -1,11 +1,15 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:#b8b4b4
+    background-color: #b8b4b4;
 }
 
 section{
     background-color:#b8b4b4
+}
+
+.Page1{
+    height: 80vw;
 }
 
 header{
@@ -33,6 +37,7 @@ header h1{
 header .topnav{
     text-align: center;
     margin-top: -22px;
+
 }
 
 .topnav input{
@@ -40,6 +45,8 @@ header .topnav{
     border-radius: 50px 50px 50px 50px;
     font-family: Roboto;
     font-size: 2.5vw;
+    width: 60%;
+    margin-left: 70px;
 }
 
 .I a{
@@ -47,9 +54,9 @@ header .topnav{
     background-color: #3a3a3a;
     text-decoration: none;
     font-family: inter;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 10px 10px 10px 10px;
     border-style: solid;
-    font-size: 4vw;
+    font-size: 3vw;
     position: relative;
     left: 47%;
 }
@@ -66,43 +73,142 @@ header .topnav{
 }
 
 .I p{
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin-left: 10px;
     font-family: Alike;
 }
 
 .II img{
     width: 30%;
-    height: 30%;
+    height: 20%;
     float: left;
-    margin-left:10px;
+    margin-right:20px;
+    margin-left: 20px;
 }
 
 .II p{
-    font-size: 3vw;
-    margin-left: 10px;
+    font-size: 2.5vw;
     font-family: Alike;
+    width: 90%;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.Tableaux{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Page2{
+    margin-bottom: 20px;
+}
+
+.Page2 h2{
+    font-size: 4vw;
+    text-align: center;
+    margin-left: 4vw;
+}
+
+.Auteur img{
+    width: 90%;
+    margin: 10px;
+}
+
+.Auteur{
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    font-family: Alice;
+    
+}
+
+.Auteur h3{
+    text-align: center;
+}
+
+.Auteur p{
+    text-align: center;
+}
+
+.Auteur hr{
+    align-content: center;
+    color: black;
+    width: 40px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.Auteur .Nom{
+    color: #757575;
+}
+
+.d button{
+    align-items: center;
+    font-size: large;
+    width: 20%;
+    border-color: #000000;
+    color: #ffffff;
+    border-radius: 7px 7px 7px 7px;
+    margin-left: 40%;
+}
+
+button{
+    background-color: #2C2C2C;
+    height: 50px;
+}
+
+#A img{
+    display: block;
+    margin-left: 25%;
+    margin-right: 50%;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 50%;
+}
+
+#A h2{
+    text-align: center;
+    font-size: 4vw;
+}
+
+#A hr{
+    align-content: center;
+    width: 20%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#A p{
+    display: block;
+    text-align: center;
+    font-size: 2vw;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 6%;
+}
+
+#Page3{
+    width: 1735px;
+    height: 742px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Block2 .Logos{
+#Block2 .Icon{
     font-size: 2vw;
     color: #000000;
 }
 
 footer{
     background-color: white;
+    
+}
+
+.Block3 img{
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+#Block2{
+    display: block;
 }
