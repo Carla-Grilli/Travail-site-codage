@@ -49,7 +49,7 @@ header .topnav{
     margin-left: 70px;
 }
 
-.I a{
+.Boutons a{
     color: black;
     background-color: #3a3a3a;
     text-decoration: none;
@@ -61,7 +61,7 @@ header .topnav{
     left: 47%;
 }
 
-.I a:hover{
+.Boutons a:hover{
     color: grey;
 }
 
@@ -118,7 +118,6 @@ header .topnav{
     padding: 10px;
     margin: auto;
     font-family: Alice;
-    
 }
 
 .Auteur h3{
@@ -150,6 +149,10 @@ header .topnav{
     border-radius: 7px 7px 7px 7px;
     margin-left: 40%;
     background-color: #2C2C2C;
+}
+
+.d button:hover{
+    color: grey;
 }
 
 #A img{
@@ -249,6 +252,10 @@ Button{
     font-family: inter;
     font-size: 1.5vw;
     height: 3vw;
+}
+
+Button:hover{
+    color: grey;
 }
 
 Input{
