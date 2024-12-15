@@ -9,7 +9,7 @@ section{
 }
 
 .Page1{
-    height: 80vw;
+    height: 85vw;
 }
 
 header{
@@ -58,7 +58,10 @@ header .topnav{
     border-style: solid;
     font-size: 3vw;
     position: relative;
-    left: 47%;
+    left: 20vw;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-left: 15px;
 }
 
 .Boutons a:hover{
@@ -74,8 +77,9 @@ header .topnav{
 
 .I p{
     font-size: 2.5vw;
-    margin-left: 10px;
+    margin-left: 20px;
     font-family: Alike;
+    padding-top: 20px;
 }
 
 .II img{
@@ -91,6 +95,7 @@ header .topnav{
     font-family: Alike;
     width: 100%;
     margin-top: 90px;
+    padding-top: 50px;
 }
 
 .Tableaux{
@@ -248,7 +253,7 @@ nav ul li{
 Button{
     background-color: #2C2C2C;
     color: #ffffff;
-    border-radius: 7px 7px 7px 7px;
+    border-radius: 3px 3px 3px 3px;
     font-family: inter;
     font-size: 1.5vw;
     height: 3vw;
@@ -261,4 +266,61 @@ Button:hover{
 Input{
     font-size: 1.5vw;
     height: 2vw;
+}
+
+
+@media only screen and (max-width: 600px){
+    .I{
+        padding: 50px;
+    }
+
+
+.I img{
+    align-content: center;
+    float: none;
+    margin-left: 121px;
+    width: 50% ;
+    ;
+}
+
+.I p{
+    font-size: large;
+    text-align: center;
+}
+
+.Page1{
+    height: 160vw;
+}
+
+.II img{ 
+    width: 39% ;
+}
+
+.II p {
+    font-size: large;
+    padding-top: 20px;
+}
+
+.Boutons a{
+    left: 6%;
+}
+
+.Block3 img{
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin: 2%;
+}
+
+Button{
+    border-radius: 3px 3px 3px 3px;
+    font-size: 1vw;
+    height: 3.2vw;
+}
+
+Input{
+    font-size: 1.5vw;
+    height: 2vw;
+}
+
 }
